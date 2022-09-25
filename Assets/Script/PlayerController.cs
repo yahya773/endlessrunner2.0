@@ -11,7 +11,7 @@ public class PlayerController : MonoBehaviour
 
     private float Normalspeed = 3.0f;
     private float maxSpeed = 6.0f;
-    public float jumpPower = 400.0f;
+    public float jumpPower = 500.0f;
     bool isOnGround = false;
 
     Rigidbody2D playerObject;
@@ -45,7 +45,7 @@ public class PlayerController : MonoBehaviour
         isOnGround = Physics2D.OverlapCircle(groundChecker.transform.position, 0.01f, whatIsGround);
          if (Input.GetKeyDown(KeyCode.Space) && isOnGround == true)
         {
-            playerObject.AddForce(new Vector2(0.0f, 300.0f)); //It add force to jump
+            playerObject.AddForce(new Vector2(0.0f, 500.0f)); //It add force to jump
         }
     }
 
