@@ -26,9 +26,17 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+       if (Input.GetKey(KeyCode.LeftShift))
+      {
+        maxSpeed = 10.0f;
+      }else
+      {
+        maxSpeed = 5.0f;
+      }  
+      float movementValueX = 1.0f;
 
         //Create a 'float' that will be equal to the playeres horizontal input
-        float movementValueX = Input.GetAxis("Horizontal");
+        //float movementValueX = Input.GetAxis("Horizontal");
 
         //Change the X velocity of the Rigidbody2D to be equal to the movement value
 
@@ -47,6 +55,8 @@ public class PlayerController : MonoBehaviour
         {
             playerObject.AddForce(new Vector2(0.0f, 500.0f)); //It add force to jump
         }
+       
+     
     }
 
 } 
