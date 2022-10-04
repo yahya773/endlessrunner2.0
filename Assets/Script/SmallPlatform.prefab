@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7889625321487204439}
   - component: {fileID: 4614056857316179281}
   - component: {fileID: 8112673951371663620}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: SmallPlatform
   m_TagString: CleanUp
   m_Icon: {fileID: 0}
