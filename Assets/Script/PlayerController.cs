@@ -58,12 +58,13 @@ public class PlayerController : MonoBehaviour
        
      
     }
-    private void OntriggerEnter2D(Collider2D other) 
-    {
-      if (other.playerObject.CompareTag("coins"))
-      {
-        Destroy(other.playerObject);
-      }
-    }    
+   
 
 } 
+//private void OntriggerEnter2D(Collider2D other) 
+{
+//if (other.playerObject.CompareTag("coins"))
+{
+    //Destroy(other.playerObject);
+}
+}    
