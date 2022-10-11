@@ -59,6 +59,13 @@ public class PlayerController : MonoBehaviour
        
      
     }
-   
 
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.tag == "coins")
+        {
+            // add coins perpous e.g add to score and delete coin
+
+        }
+    }
 }
