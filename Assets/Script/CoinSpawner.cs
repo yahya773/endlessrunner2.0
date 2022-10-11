@@ -15,7 +15,7 @@ public class CoinSpawner : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //Random.Range returns a random float between two values
+        //Random.Range returns a random float between twdo values
         timeToNextSpawn = Random.Range(minSpawnTime, maxSpawnTime);
     }
 
