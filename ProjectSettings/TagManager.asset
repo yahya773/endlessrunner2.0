@@ -6,6 +6,7 @@ TagManager:
   tags:
   - CleanUp
   - 'coins '
+  - Coins
   layers:
   - Default
   - TransparentFX
