@@ -13,6 +13,7 @@ public class PlayGame : MonoBehaviour
     public void Quit()
     {
         Application.Quit();
+
     }
 
 }
