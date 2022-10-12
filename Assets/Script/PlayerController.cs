@@ -60,12 +60,18 @@ public class PlayerController : MonoBehaviour
      
     }
 
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.tag == "coins")
         {
             // add coins perpous e.g add to score and delete coin
 
         }
+
+        if (other.CompareTag("Death"))
+        {
+            UnityEngine.SceneManagement.SceneManager.LoadScene("MainMenu");
+        }
     }
+
 }
