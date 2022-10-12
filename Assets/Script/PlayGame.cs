@@ -10,5 +10,9 @@ public class PlayGame : MonoBehaviour
         UnityEngine.SceneManagement.SceneManager.LoadScene(1);
     }
     
+    public void Quit()
+    {
+        Application.Quit();
+    }
 
 }
