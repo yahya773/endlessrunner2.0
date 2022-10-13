@@ -479,8 +479,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -312.72073, y: 364.5}
-  m_SizeDelta: {x: 386.3585, y: 30}
+  m_AnchoredPosition: {x: -122.1, y: 70.25743}
+  m_SizeDelta: {x: 386.3585, y: 322.0851}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1814228828
 MonoBehaviour:
@@ -505,7 +505,7 @@ MonoBehaviour:
   m_FontData:
     m_Font: {fileID: 12800000, guid: e3265ab4bf004d28a9537516768c1c75, type: 3}
     m_FontSize: 23
-    m_FontStyle: 0
+    m_FontStyle: 2
     m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 40
@@ -515,9 +515,30 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Game made by: yahya
+  m_Text: 'Rider.
 
-    beat produce by:yahya'
+    Game made by: Yahya
+
+    beat produce by:Yahya
+
+    Special
+    Thanks To:
+
+    Galib
+
+    Ayaan
+
+    Britt
+
+    Curtis
+
+    Greg
+
+    Hashim
+
+    Oliver
+
+'
 --- !u!222 &1814228829
 CanvasRenderer:
   m_ObjectHideFlags: 0
