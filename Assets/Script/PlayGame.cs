@@ -15,5 +15,8 @@ public class PlayGame : MonoBehaviour
         Application.Quit();
 
     }
-
+    public void Credits()
+    {
+        UnityEngine.SceneManagement.SceneManager.LoadScene(2);
+    }
 }
