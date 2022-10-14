@@ -13,6 +13,11 @@ public class PlayGame : MonoBehaviour
     public void Quit()
     {
         Application.Quit();
-    }
 
+    }
+    public void Credits()
+    {
+        UnityEngine.SceneManagement.SceneManager.LoadScene(2);
+    }
 }
+    
