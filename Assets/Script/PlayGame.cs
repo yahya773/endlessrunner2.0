@@ -20,3 +20,4 @@ public class PlayGame : MonoBehaviour
         UnityEngine.SceneManagement.SceneManager.LoadScene(2);
     }
 }
+    
